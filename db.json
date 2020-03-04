@@ -77,7 +77,11 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "id": 1
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",
