@@ -38,7 +38,7 @@ fetch("http://localhost:3000/dogs", configObj) // see .then below
 .then(function(response) {  //  takes in response as an argument
   return response.json();  //  converts the response JSON to a JavaScript object
 })
-.then(function(object) { // funtion to
+.then(function(object) { // function used to
   console.log(object);  // manage what comes back in response.json()
 })
 // how to manage when fetch goes wrong
